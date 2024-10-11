@@ -1,6 +1,51 @@
+* {
+    outline: 2px solid red;
+  }
+
+  /* Section One */
 .container-one {
     background-color: #1F2937;
-    color: white;
     display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 450px;
+}
+
+.container-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.link, #subtext, #placeholder {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* Section  Two */
+
+.container-two {
+    background-color: #1F2937;
+
+}
+
+#awesome {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+#placeholder {
+    background-color: grey;
+}
+
+button {
+    background-color: #3882f6;
+    color: #F9FAF8;
 }
