@@ -1,6 +1,9 @@
+
+
 * {
     outline: 2px solid red;
   }
+
 
   /* Section One */
 .container-one {
@@ -32,10 +35,12 @@
 
 .container-two {
     background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
 
 }
 
-#awesome {
+#awesome, .fivea {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
@@ -43,9 +48,97 @@
 
 #placeholder {
     background-color: grey;
+    text-align: center;
+    display: flex;
+    align-items: center;
 }
 
 button {
     background-color: #3882f6;
     color: #F9FAF8;
+}
+
+.images {
+    display: flex;
+
+}
+
+.container-three {
+    text-align: center;
+}
+
+.container-info {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    outline: 2px solid #3882f6;
+  }
+
+.item-info {
+    max-width: 200px;
+}
+
+.threea {
+    font-weight: 900px;
+    font-size: 36px;
+    color: #1F2937;
+    margin-bottom: 32px;
+}
+
+.container-four {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+
+.foura {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.fourb {
+    align-items: end;
+}
+
+.container-five {
+    display: flex;
+    justify-content: center;
+}
+
+.container-six {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    gap: 50px
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#outline {
+    outline: 2px solid white;
+    border-radius: 5px;
+    
+}
+
+.fiveb {
+    color: white;
+}
+
+.six {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
 }
